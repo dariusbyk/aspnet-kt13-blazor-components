@@ -1,0 +1,30 @@
+<h2>@Name</h2>
+<p>Возраст: @currentAge</p>
+
+<button @onclick="IncreaseAge">Увеличить возраст на 1</button>
+<button @onclick="ResetAge">Сбросить возраст</button>
+
+@code {
+    [Parameter]
+    public string Name { get; set; }
+
+    [Parameter]
+    public int Age { get; set; }
+
+    private int currentAge;
+
+    protected override void OnInitialized()
+    {
+        currentAge = Age;
+    }
+
+    private void IncreaseAge()
+    {
+        currentAge = currentAge + 1;
+    }
+
+    private void ResetAge()
+    {
+        currentAge = Age;
+    }
+}
