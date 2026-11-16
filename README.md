@@ -1,13 +1,9 @@
-# \# aspnet-kt13-blazor-components
+# aspnet-kt13-blazor-components
 
-# 
+# Описание
 
-# \## Описание
+![Описание](screenshots/0.png)
 
-# !\[Описание](screenshots/0.png)
+# Результат
 
-# 
-
-# \## Результат
-
-# !\[Результат 1](screenshots/1.png)
+![Результат 1](screenshots/1.png)
